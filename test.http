@@ -1,0 +1,17 @@
+POST http://localhost:8001/chat
+Content-Type: application/json
+
+{
+  "message": "Cześć, testuję czat!"
+}
+
+
+### 2. Testowanie głosu
+# @name Glos
+POST http://localhost:8002/tts
+Content-Type: application/json
+
+{
+  "text": "Cześć, tu Lena. Testuję swój nowy głos."
+}
+

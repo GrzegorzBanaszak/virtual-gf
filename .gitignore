@@ -1,1 +1,41 @@
 .env
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+
+# --- Virtual environments ---
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+
+# --- Build / Distribution ---
+build/
+dist/
+
+# --- Logs / Dumps ---
+*.log
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Cache / Misc ---
+*.sqlite3
+.DS_Store
+Thumbs.db
+
+# --- Testing ---
+.coverage
+.pytest_cache/
+htmlcov/
+
+# --- PIP tools ---
+pip-wheel-metadata/
